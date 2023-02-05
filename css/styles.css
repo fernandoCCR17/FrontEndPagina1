@@ -26,9 +26,11 @@ body{
 }
 /* Globales */
 .contenedor{
-    max-width: 120rem;
-    max-height: 43.8rem;
     width: 90%;
+    max-width: 32.2rem;
+    max-height: 73.4rem;
+    min-width: 32.2rem;
+    min-height: 73.4rem;
     margin: calc(var(--separacion) / 2) auto;
 }
 
@@ -41,6 +43,10 @@ body{
         align-items: center;
     }
     .contenedor{
+        max-width: 120rem;
+        max-height: 43.8rem;
+        min-width: 84.8rem;
+        min-height: 43.8rem;
         width: 53%;
         height: 70%;
         margin: 0;
